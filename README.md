@@ -8,7 +8,7 @@ docker build spark210 .
 docker-compose up
 
 ### Setting the number of workers
-docker-compose scale=numWorkers
+docker-compose scale spark-worker=numWorkers
 
 
 Once running, the cluster spark UI is accessible with `localhost:8080`
